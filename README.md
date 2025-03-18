@@ -1,5 +1,7 @@
 # Customer Segmentation and Target Market Analysis
 
+![Ecom](https://github.com/user-attachments/assets/d9572c79-96dd-4143-912d-45afa51feb03)
+
 ## 📌 Project Overview
 
 The marketing department at **Sunshine E-commerce** has engaged the **Data Analytics team** to analyze customer segmentation and identify target customers for optimizing their **$1.5 million marketing budget** in the upcoming quarters. The goal is to increase revenues by strategically targeting high-value customer segments.
