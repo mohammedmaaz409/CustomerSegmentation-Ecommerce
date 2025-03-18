@@ -220,5 +220,30 @@ FROM
 ORDER BY 
     RFMScore DESC;
 ```
+### 7. Identify Declining Segment
+```sql
+WITH DeclineSegment AS (
+    SELECT 
+        CustomerID,
+        CASE 
+            WHEN TotalSales >= 2000 THEN 'High Value'
+            WHEN TotalSales BETWEEN 800 AND 2000 THEN 'Medium Value'
+            WHEN TotalSales BETWEEN 400 AND 799 THEN 'Low Value'
+            ELSE 'Dormant'
+        END AS SalesSegment
+    FROM 
+        project
+)
+SELECT 
+    SalesSegment,
+    COUNT(DISTINCT CustomerID) AS CustomerCount
+FROM 
+    DeclineSegment
+GROUP BY 
+    SalesSegment
+ORDER BY 
+    FIELD(SalesSegment, 'High Value', 'Medium Value', 'Low Value', 'Dormant');
+```
+## 📊 Visualizations
 
 
