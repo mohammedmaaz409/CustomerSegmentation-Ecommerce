@@ -35,7 +35,7 @@ Rank customers into deciles based on **RFM (Recency, Frequency, and Monetary)** 
 
 ---
 
-## 🏗️ Project Workflow
+## Project Workflow
 
 1. **Data Preparation & Cleaning**
    - Handle missing values and data inconsistencies.
