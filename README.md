@@ -9,12 +9,12 @@ The marketing department at **Sunshine E-commerce** has engaged the **Data Analy
 ## 📖 Table of Contents
 
 - [Problem Outline](#problem-outline)
-- [Project Workflow](#project-workflow)
-- [Data Overview](#data-overview)
-- [Code](#Code)
-- [Visualizations](#visualizations)
-- [Insights & Key Takeaways](#insights--key-takeaways)
-- [Next Steps](#next-steps)
+- [Project Workflow](#-project-workflow)
+- [Data Overview](#-data-overview)
+- [Code](#code)
+- [Visualizations](#-visualizations)
+- [Insights & Key Takeaways](#-insights--key-takeaways)
+- [Next Steps](#-next-steps)
 
 ---
 ## Problem Outline
